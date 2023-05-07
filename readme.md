@@ -4,103 +4,49 @@
 
 </span>
 
-<span style="font-family: 'Arial, Helvetica, sans-serif';"> Express Framework,Html,CSS,Javascript,google maps, and firebase
+<span style="font-family: 'Arial, Helvetica, sans-serif';">React, Solidity, Spheron,
 </span>
 
 ## 💼 &nbsp; <span style="color: #f2cf4a; font-family: Babas; font-size: 1.4em;">_Challenges we ran into_
 
 </span>
-<span style="color:#fff; font-family: 'Bebas Neue'; font-size: 1.2em;">Integrating maps to our site and putting backend for the user review section.
+<span style="color:#fff; font-family: 'Bebas Neue'; font-size: 1.2em;">Error in installing of ether module on spheron 
 </span>
 
 ## 🔭 &nbsp; <span style="color: #f2cf4a; font-family: Babas; font-size: 1.4em;">About this Project
 
 </span>
 
-> Have you ever glanced at a public toilet but refrained from
-> using it after noticing how unclean it is?
-> Our project targets to change this perception about public
-> toilets and create new norm about them!
-> We have designed a website through which a user can spread
-> awareness about where a public toilet is lacking.
-> Our project will help the required authorities to maintain and
-> repair the required public toilets based on the information
-> gathered by our website, which has been taken from the users
-> themselves.
-> Our site also can be used as a gateway to locate public toilets
-> near you and further provide feedback for the need of creation
-> of new public toilets.
+> In today's society, many crimes go unreported as people often overlook or fail to report them to the police, leading to a lack of comprehensive crime data and delayed or inadequate law enforcement response.
+
+> This issue results in reduced community safety and hinders effective crime prevention efforts. Also, the lack of a reliable and transparent system for reporting and verifying nearby crimes poses a significant challenge to maintaining public safety. Existing centralized crime reporting methods often suffer from inefficiencies, limited trust, and potential manipulation.
+
+> Therefore, there is a pressing need for a decentralized crime marking and detection app that harnesses the power of blockchain technology to empower individuals to report crimes and enable the community to collectively validate the information's authenticity.
+
 > </span>
 
 ---
 
 **Description of the Project**
 
-`Our Project is a Website with individual review interface  backed with the power of django framework.`
+`The decentralized crime marking and detection app can leverage blockchain technology to enable individuals to register crime reports on an immutable and transparent ledger. The app should incorporate a voting mechanism, allowing the community to collectively validate the reported crimes. A majority vote of 51% or more would determine the legitimacy of the information, ensuring a fair and democratic decision-making process.`
 
 <details>
            <summary><span style="font-family:Papyrus; font-size:1.5em;">Website</span></summary>
            <p></p>
          </details>
 
-![Home page](Images/home.png)
+![Home page](Images/crie2.png)
 
-> Public toilets cause more problems than providing
-> solution to the public users, due to their lack of
-> maintenance and cleanliness.Our project aims to
-> provide solution to this problem through social
-> feedback and social awareness.
->
-> > Our Home page has two arrow keys
-> > left and right which give access to other pages like login, main page, maps and about us.
+> Users of the app can register crime incidents they witness or experience in their vicinity. They can provide details such as the type of _crime, location, time, and any other relevant information_. This information is then recorded on the blockchain, ensuring its immutability and transparency.
 
-![Main page](Images/main.png)
+![Check Crime](Images/crime1.png)
 
-> <span style="color: #f2cf4a; font-family: Babas; font-size: 1.5em;">1) _Home_:</span>Main page is designed keeping it's aesthetic aspect high so that perception of public toilets being attached with negative emotion change. It has 5 icons on its left corner all leading you on different page.
-
-![login](Images/login.jpg)
-
-we have created sign in/up interface page backed with the power of django framework .
-
-> > <span style="font-family: 'Lucida Console';">We made the login page user friendly so that it remember you, so that you don't have to sign in again and again. </span>
-
-![Gps page](Images/gps.png)
-
-> > > We also integrated gps, which you can control with on/off button on top left corner, it'll take your current location.(You can then check toilets near me pagefor info). . you can access map also from this page(top right corner), you can also put your entire journey for better info.You can also put your reviews and wether you were satisfied or not. Links to home page and your profile are also given on bottom right corner.
-
-![Toilet Near me](Images/toilet.png)
-
-> > > You can also put your location manually and this page will show all the public toilets near you and their ratings on the scale from 1 to 5. You can also read reviews of other people who used the toilet earlier. On bottom you can also add your own review. Again access to all other pages are given on this page.
-
-![Map page](Images/map.png)
-
-> > > Our site also have map feature to give you overview about oublic restrooms around you and your route of journey.
-
----
-
-> <span style="color: #f2cf4a; font-family: Babas; font-size: 1.5em;">2) _About Us_:</span>
-> Moving in homepage further will give a brief description _about_ our team. Our main objective is to bring out best confident personality from within you , and lend a helping hand ,which has been explained in this section of webpage.
-
-![About us](Images/about_us.png)
-
----
-
-> <span style="color:gold; font-family: Babas; font-size: 1.5em;">3) _Team_:</span> you will finally reach virtually to us and we are glad for that.
-
-> <span style="color:gold; font-family: Babas; font-size: 1.5em;">4) _Contact_:</span>If your needs are not satisfied by this webpage or you have queries unanswered,you surely can contact us and we ensure you to provide with best solution.
-
----
-
-## <span style="color: #f2cf4a; font-family: Babas; font-size: 1.2em;"> Sustainable Goals:</span>
-
-> At Toi-Link, we are committed to supporting the United Nations Sustainable Development Goals (SDGs) through our website. We believe that access to clean and safe public restrooms is not only a basic human need, but also a crucial aspect of sustainable development. To that end, we have incorporated sustainable practices into our website design and operations. We partner with organizations that share our commitment to sustainable development and social responsibility, and strive to promote sustainable practices in our users as well.
-
- <div>
-    <img src="Images/sdg3.png" alt="Good Health and Well-Being">
-    <img src="Images/sdg5.png" alt="Gender Equality">
-    <img src="Images/sdg6.png" alt="Clean Water and Sanitation">
-    <img src="Images/sdg11.png" alt="Sustainbale cities and communities">
-</div>
+> > > **Community Validation**: Once a crime report is registered, it is made available to the app's community members for validation. Each member has the opportunity to vote on the authenticity and legitimacy of the reported crime. They can review the provided information and assess its credibility.
+> > > <br> > > > **Voting Mechanism**: The app implements a voting system where community members can cast their vote on whether they believe the reported crime is true or false. Each member's vote holds equal weight.
+> > > <br> > > > **Decision Making**: The voting period has a predefined duration to allow enough time for community participation. At the end of the voting period, the app counts the votes received for each crime report. If a reported crime receives a _majority vote of 51% or more_, it is considered validated by the community.
+> > > <br> > > > **Marking the Crime**: Based on the outcome of the voting process, the app marks the reported crime accordingly. If a crime is validated by the majority, it is labeled as legitimate and remains visible on the app's platform. However, if a crime fails to achieve the majority vote, it is marked as unverified or false, indicating that it may not be accurate.
+> > > <br> > > > **Public Awareness**: The app serves as a public resource, providing real-time information about nearby crimes that have been verified by the community. Users can access the app to
 
 <!-- CONTRIBUTING -->
 
